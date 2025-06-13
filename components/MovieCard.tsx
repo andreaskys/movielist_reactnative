@@ -10,7 +10,9 @@ const MovieCard = ({
                        vote_average,
                        release_date,
                    }: Movie) => {
+
     return (
+        //@ts-ignore
         <Link href={`/movie/${id}`} asChild>
             <TouchableOpacity className="w-[30%]">
                 <Image
